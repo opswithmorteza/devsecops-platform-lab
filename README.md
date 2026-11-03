@@ -19,7 +19,7 @@ python policy_check.py Dockerfile
 
 ## Pipeline
 
-`ci.yml` is a ready-to-place GitHub Actions workflow. Copy it to `.github/workflows/ci.yml` to enable it. It runs unit tests, checks selected Dockerfile policies and builds the image. It does not deploy to production or publish images.
+`.github/workflows/ci.yml` is an enabled GitHub Actions workflow. It runs unit tests, checks selected Dockerfile policies and builds the image. It does not deploy to production or publish images.
 
 ## Controls and scope
 
